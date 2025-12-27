@@ -1,0 +1,15 @@
+# Core Data Analysis & Manipulation
+pandas>=2.0.0      # For dataframes, time-series handling, and interpolation
+numpy>=1.24.0      # For numerical operations and array handling
+
+# Visualization (EDA)
+matplotlib>=3.7.0  # Basic plotting (histograms, line charts)
+seaborn>=0.12.0    # Advanced statistical plots (heatmaps, correlation matrices)
+
+# Machine Learning & Metrics
+scikit-learn>=1.2.0 # For all 5 models (Logistic Regression, RF, etc.) and metrics
+scipy>=1.10.0      # Required dependency for advanced stats and interpolation
+
+# Environment (Optional but recommended)
+jupyter            # If you are working in a notebook environment
+notebook           # Interface for Jupyter
