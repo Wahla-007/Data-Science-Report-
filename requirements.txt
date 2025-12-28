@@ -13,3 +13,4 @@ scipy>=1.10.0      # Required dependency for advanced stats and interpolation
 # Environment (Optional but recommended)
 jupyter            # If you are working in a notebook environment
 notebook           # Interface for Jupyter
+statsmodels        # For time series decomposition
