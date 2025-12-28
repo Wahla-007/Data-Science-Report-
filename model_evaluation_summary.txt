@@ -1,0 +1,89 @@
+==============================================
+      AIR QUALITY MODEL EVALUATION REPORT     
+==============================================
+
+--- Logistic Regression Results ---
+Accuracy: 37.15%
+Weighted F1-Score: 0.3146
+
+                precision    recall  f1-score   support
+
+          Good       0.34      0.52      0.41       490
+      Moderate       0.41      0.50      0.45       568
+     Unhealthy       0.00      0.00      0.00       389
+Very Unhealthy       0.00      0.00      0.00         1
+
+      accuracy                           0.37      1448
+     macro avg       0.19      0.25      0.21      1448
+  weighted avg       0.27      0.37      0.31      1448
+
+==================================================
+
+--- Decision Tree Results ---
+Accuracy: 36.67%
+Weighted F1-Score: 0.3670
+
+                precision    recall  f1-score   support
+
+          Good       0.34      0.38      0.36       490
+      Moderate       0.44      0.41      0.42       568
+     Unhealthy       0.31      0.29      0.30       389
+Very Unhealthy       0.00      0.00      0.00         1
+
+      accuracy                           0.37      1448
+     macro avg       0.27      0.27      0.27      1448
+  weighted avg       0.37      0.37      0.37      1448
+
+==================================================
+
+--- Random Forest Results ---
+Accuracy: 42.61%
+Weighted F1-Score: 0.4024
+
+                precision    recall  f1-score   support
+
+          Good       0.37      0.49      0.42       490
+      Moderate       0.48      0.57      0.52       568
+     Unhealthy       0.39      0.13      0.20       389
+Very Unhealthy       0.00      0.00      0.00         1
+
+      accuracy                           0.43      1448
+     macro avg       0.31      0.30      0.29      1448
+  weighted avg       0.42      0.43      0.40      1448
+
+==================================================
+
+--- SVM Results ---
+Accuracy: 43.58%
+Weighted F1-Score: 0.3848
+
+                precision    recall  f1-score   support
+
+          Good       0.40      0.48      0.43       490
+      Moderate       0.47      0.67      0.55       568
+     Unhealthy       0.31      0.04      0.08       389
+Very Unhealthy       0.00      0.00      0.00         1
+
+      accuracy                           0.44      1448
+     macro avg       0.29      0.30      0.27      1448
+  weighted avg       0.40      0.44      0.38      1448
+
+==================================================
+
+--- KNN Results ---
+Accuracy: 40.61%
+Weighted F1-Score: 0.3845
+
+                precision    recall  f1-score   support
+
+          Good       0.37      0.53      0.44       490
+      Moderate       0.46      0.48      0.47       568
+     Unhealthy       0.36      0.13      0.19       389
+Very Unhealthy       0.00      0.00      0.00         1
+
+      accuracy                           0.41      1448
+     macro avg       0.30      0.29      0.28      1448
+  weighted avg       0.40      0.41      0.38      1448
+
+==================================================
+
